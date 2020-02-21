@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header correctly 1`] = `
+<header
+  style={
+    Object {
+      "background": "#333",
+      "color": "#fff",
+      "padding": "10px",
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    React Blog
+  </h1>
+  <Link
+    style={
+      Object {
+        "color": "#fff",
+        "textDecoration": "none",
+      }
+    }
+    to="/"
+  >
+    Home
+  </Link>
+   
+  |
+  <Link
+    style={
+      Object {
+        "color": "#fff",
+        "textDecoration": "none",
+      }
+    }
+    to="/addPost"
+  >
+     
+    Add Post
+  </Link>
+</header>
+`;

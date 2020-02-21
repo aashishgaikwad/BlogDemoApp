@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Post correctly 1`] = `
+<div
+  className="post"
+  key="1"
+>
+  <Link
+    to="/post/1"
+  >
+    <h3>
+      post title
+    </h3>
+  </Link>
+  <p>
+    post body
+  </p>
+</div>
+`;

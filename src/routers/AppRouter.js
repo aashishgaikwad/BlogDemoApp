@@ -8,18 +8,18 @@ import AddNewPost from '../components/AddNewPost';
 import EditPost from '../components/EditPost';
 
 const AppRouter = () => (
-	<BrowserRouter>
-		<div>
-			<Header />
-			<Switch>
-				<Route exact path="/" component={ListPosts} />
-				<Route path="/post/:id" component={ViewPost} />
-				<Route path="/addPost" component={AddNewPost} />
-				<Route path="/editPost/:id" component={EditPost} />
-				<Route component={NotFoundPage} />
-			</Switch>
-		</div>
-	</BrowserRouter>
+    <BrowserRouter>
+        <div>
+            <Header />
+            <Switch>
+                <Route exact path="/" component={ListPosts} />
+                <Route path="/post/:id" component={ViewPost} />
+                <Route path="/addPost" component={AddNewPost} />
+                <Route path="/editPost/:id" component={EditPost} />
+                <Route component={NotFoundPage} />
+            </Switch>
+        </div>
+    </BrowserRouter>
 );
 
 export default AppRouter;

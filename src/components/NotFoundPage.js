@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => (
-  <div>
+    <div>
     Error : 404. Page not found. <br/> <Link to="/"> Go home</Link>
-  </div>
+    </div>
 );
 
 export default NotFoundPage;
