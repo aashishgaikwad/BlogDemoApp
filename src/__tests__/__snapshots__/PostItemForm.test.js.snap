@@ -8,13 +8,15 @@ exports[`renders PostItemForm correctly 1`] = `
   <form
     onSubmit={[Function]}
   >
-    <label>
+    <label
+      htmlFor="title"
+    >
       Title: 
     </label>
     <br />
     <input
-      autoFocus={true}
       className="textBox"
+      id="title"
       name="title"
       onChange={[Function]}
       type="text"
@@ -22,12 +24,15 @@ exports[`renders PostItemForm correctly 1`] = `
     />
     <br />
     <br />
-    <label>
+    <label
+      htmlFor="body"
+    >
       Body: 
     </label>
     <br />
     <textarea
       className="textAreaBox"
+      id="body"
       name="body"
       onChange={[Function]}
       value=""
@@ -55,13 +60,15 @@ exports[`renders PostItemForm correctly with post data 1`] = `
   <form
     onSubmit={[Function]}
   >
-    <label>
+    <label
+      htmlFor="title"
+    >
       Title: 
     </label>
     <br />
     <input
-      autoFocus={true}
       className="textBox"
+      id="title"
       name="title"
       onChange={[Function]}
       type="text"
@@ -69,12 +76,15 @@ exports[`renders PostItemForm correctly with post data 1`] = `
     />
     <br />
     <br />
-    <label>
+    <label
+      htmlFor="body"
+    >
       Body: 
     </label>
     <br />
     <textarea
       className="textAreaBox"
+      id="body"
       name="body"
       onChange={[Function]}
       value="post body"
@@ -103,13 +113,15 @@ exports[`renders error for invalid form submission 1`] = `
     <form
       onSubmit={[Function]}
     >
-      <label>
+      <label
+        htmlFor="title"
+      >
         Title: 
       </label>
       <br />
       <input
-        autoFocus={true}
         className="textBox"
+        id="title"
         name="title"
         onChange={[Function]}
         type="text"
@@ -117,12 +129,15 @@ exports[`renders error for invalid form submission 1`] = `
       />
       <br />
       <br />
-      <label>
+      <label
+        htmlFor="body"
+      >
         Body: 
       </label>
       <br />
       <textarea
         className="textAreaBox"
+        id="body"
         name="body"
         onChange={[Function]}
         value=""
